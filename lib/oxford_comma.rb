@@ -1,6 +1,8 @@
 def oxford_comma(array)
-  array.each do |element|
-    array.join(", ")
+  if array.length > 3
+    array.join(" and ")
+  elsif array.length 
+
 
 
 
